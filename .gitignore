@@ -1,0 +1,11 @@
+# General exclusions for the repository
+venv/
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+*.zip
+*.png
+# Exclude virtual environment and IDE files
+.idea/
+.vscode/
