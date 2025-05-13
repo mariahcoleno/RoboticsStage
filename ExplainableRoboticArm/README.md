@@ -10,18 +10,6 @@ This project simulates a robotic arm that learns to pick and place objects in a 
   - Evaluate the trained model to observe its behavior.
   - Visualize the arm’s actions in a 3D simulation environment.
 
-### Project Structure
-ExplainableRoboticArm/
-├── data/                          # (Optional) Directory for sample data or logs
-├── logs/                          # Training logs (TensorBoard logs, ignored by Git)
-├── src/                           # Source code
-│   ├── __init__.py                # Package initialization
-│   └── robotic_arm_sim.py         # Main script for simulation, training, and GUI
-├── train_logs_backup.txt          # Training log file (ignored by Git)
-├── ppo_robotic_arm.zip            # Saved PPO model (ignored by Git)
-├── requirements.txt               # Dependencies
-└── README.md                      # Project documentation
-
 ### Files
 - `requirements.txt`: Lists dependencies required to run scripts.
 - `src/robotic_arm_sim.py`: Script used to train and evaluate the robot.
