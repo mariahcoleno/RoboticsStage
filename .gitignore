@@ -9,3 +9,6 @@ __pycache__/
 # Exclude virtual environment and IDE files
 .idea/
 .vscode/
+ExplainableRoboticArm/train_logs_backup.txte
+ExplainableRoboticArm/ppo_robotic_arm.zip
+ExplainableRoboticArm/logs/
