@@ -2,13 +2,18 @@
 venv/
 *.pyc
 __pycache__/
-*.log
 .DS_Store
-*.zip
 *.png
-# Exclude virtual environment and IDE files
+
+# Exclude IDE and editor settings
 .idea/
 .vscode/
-ExplainableRoboticArm/train_logs_backup.txte
+
+# Specific exclusions for ExplainableRoboticArm
+ExplainableRoboticArm/train_logs_backup.txt
 ExplainableRoboticArm/ppo_robotic_arm.zip
 ExplainableRoboticArm/logs/
+
+# Optional: Exclude other temporary or large files
+*.bak
+*.tmp
