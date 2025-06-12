@@ -1,5 +1,4 @@
-# RoboticsProjects
-### ExplainableRoboticArm 
+### Robotic Arm Simulator 
 This project simulates a robotic arm that learns to pick and place objects in a 3D environment using reinforcement learning (PPO algorithm with Stable Baselines3). A Tkinter GUI allows users to run the simulation, train the model, and evaluate its performance. The project demonstrates skills in robotics simulation, reinforcement learning, and GUI development—key areas for advancing AI-driven robotics and human scientific discovery.
 
 ### Overview
@@ -22,7 +21,7 @@ This project simulates a robotic arm that learns to pick and place objects in a 
 - **Note**:
   - Start in your preferred directory (e.g., cd ~/Desktop/ or cd ~/Downloads/ or cd ~/Documents/) to control where the repository clones. 
   - If you skip this step, it clones to your current directory.
-1. Clone the repository: `git clone https://github.com/mariahcoleno/RoboticsStage.git`
+1. Clone the repository: `git clone https://github.com/mariahcoleno/robotic-arm-sinulator.git`
 2. Navigate to the ExplainableRoboticArm directory: `cd ExplainableRoboticArm/` (from the root of your cloned repository)
 3. Create virtual environment: `python3 -m venv venv`
 4. Activate: `source venv/bin/activate` # On Windows: venv\Scripts\activate
@@ -30,7 +29,7 @@ This project simulates a robotic arm that learns to pick and place objects in a 
 6. Proceed to the "Run the Tool" section below.
 
 #### Option 2: Local Setup (Existing Repository)
-1. Navigate to your local repository `cd ~/Documents/RoboticsStage/` # Adjust path as needed
+1. Navigate to your local repository `cd ~/Documents/robotic-arm-simulator/` # Adjust path as needed
 2. Navigate to ExplainableRoboticArm directory: `cd ExplainableRoboticArm/`
 3. Setup and activate a virtual environment:
    - If existing: `source venv/bin/activate` # Adjust path if venv is elsewhere
