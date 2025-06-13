@@ -72,15 +72,22 @@ This project simulates a robotic arm that learns to pick and place objects in a 
        - Checkpoint loading may require troubleshooting if issues persist (see project notes). 
    
 ### Project Structure
-- data/                 # (Optional) Directory for sample data or logs
-- logs/                 # Training logs (TensorBoard logs, ignored by Git)
-- src/                  # Source code
-  - __init__.py         # Package initialization
-  - robotic_arm_sim.py  # Main script for simulation, training, and GUI
-  - train_logs_backup.txt # Training log file (ignored by Git)
-  - ppo_robotic_arm.zip   # Saved PPO model (ignored by Git)
-  - requirements.txt      # Dependencies
-  - README.md             # Project Documentation
+- robotic-arm-simulator/
+  - robotic_arm/
+    - src/                  # Source code
+      - explain_decision.py      
+      - gui.py      
+      - robotic_arm_sim.py  # Main script for simulation, training, and GUI
+    - .gitignore
+    - README.md
+    - fetch_pick_and_place.sac.py
+    - requirements.txt 
+
+###  Generated Files (Not in Repository)
+When you run the training, these files will be created locally:
+- `ppo_robotic_arm.zip` - Trained PPO model
+- `logs/` - Training logs and metrics
+- `screenshots/` - Simulation screenshots (if enabled)
 
 ### Results
 - Performance: Achieved a 67% success rate with an average episode length of 62 steps over 4.5M timesteps.
