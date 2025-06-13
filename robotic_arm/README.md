@@ -1,4 +1,4 @@
-### Robotic Arm Simulator 
+## Robotic Arm Simulator 
 This project simulates a robotic arm that learns to pick and place objects in a 3D environment using reinforcement learning (PPO algorithm with Stable Baselines3). A Tkinter GUI allows users to run the simulation, train the model, and evaluate its performance. The project demonstrates skills in robotics simulation, reinforcement learning, and GUI development—key areas for advancing AI-driven robotics and human scientific discovery.
 
 ### Features
@@ -93,3 +93,6 @@ This project simulates a robotic arm that learns to pick and place objects in a 
 ### Development Notes
 - Application developed through iterative prompt engineering with AI tools (Claude/Grok) for rapid prototyping and learning.
 - Reinforcement learning implementation required extensive iteration to achieve stable training and 67% success rate.
+
+### License
+- All rights reserved. Contact colenomariah92@gmail.com for licensing inquiries.
