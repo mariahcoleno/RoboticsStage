@@ -1,13 +1,21 @@
 ### Robotic Arm Simulator 
 This project simulates a robotic arm that learns to pick and place objects in a 3D environment using reinforcement learning (PPO algorithm with Stable Baselines3). A Tkinter GUI allows users to run the simulation, train the model, and evaluate its performance. The project demonstrates skills in robotics simulation, reinforcement learning, and GUI development—key areas for advancing AI-driven robotics and human scientific discovery.
 
-### Overview
-- Objective: Train a robotic arm to pick up a cube and place it at a target location using reinforcement learning.
-- Performance: Achieved a 67% success rate with an average episode length of 62 steps over 4.5M timesteps.
-- GUI Features:
-  - Train the model with configurable timesteps.
-  - Evaluate the trained model to observe its behavior.
-  - Visualize the arm’s actions in a 3D simulation environment.
+### Features
+- Reinforcement Learning Training
+  - Train a robotic arm to perform pick-and-place tasks using PPO algorithm (Stable Baselines3)
+  - Configurable training timesteps for flexible model development
+  - Comprehensive logging of training metrics including episode rewards and lengths
+
+- Simulation & Evaluation
+  - Interactive 3D visualization environment for observing arm movements
+  - Model evaluation mode to test trained agent performance
+  - Real-time monitoring of robotic arm behavior and task completion
+
+- User Interface
+  - Intuitive Tkinter-based GUI for easy simulation control
+  - Streamlined controls for training, evaluation, and visualization
+  - Detailed state logging and simulation feedback
 
 ### Files
 - `requirements.txt`: Lists dependencies required to run scripts.
@@ -16,12 +24,17 @@ This project simulates a robotic arm that learns to pick and place objects in a 
 - `ppo_robotic_arm.zip`: Saved model.
 - `eval_logs.txt`: Logs used to evaluate results. 
 
+### Requirements 
+- stable-baseline3 (for PPO implementation)
+- numpy (for numerical operations)
+- gym (for reinforcement learning environment)
+
 ### Setup and Usage
-#### Option 1: From GitHub (Clone)
+#### Option 1: From GitHub (First Time Setup)
 - **Note**:
   - Start in your preferred directory (e.g., cd ~/Desktop/ or cd ~/Downloads/ or cd ~/Documents/) to control where the repository clones. 
   - If you skip this step, it clones to your current directory.
-1. Clone the repository: `git clone https://github.com/mariahcoleno/robotic-arm-sinulator.git`
+1. Clone the repository: `git clone https://github.com/mariahcoleno/robotic-arm-simulator.git`
 2. Navigate to the ExplainableRoboticArm directory: `cd ExplainableRoboticArm/` (from the root of your cloned repository)
 3. Create virtual environment: `python3 -m venv venv`
 4. Activate: `source venv/bin/activate` # On Windows: venv\Scripts\activate
@@ -59,29 +72,18 @@ This project simulates a robotic arm that learns to pick and place objects in a 
        - Checkpoint loading may require troubleshooting if issues persist (see project notes). 
    
 ### Project Structure
-- RoboticsStage/
-  - ExplainableRoboticArm/
-    - data/                 # (Optional) Directory for sample data or logs
-    - logs/                 # Training logs (TensorBoard logs, ignored by Git)
-    - src/                  # Source code
-      - __init__.py         # Package initialization
-      - robotic_arm_sim.py  # Main script for simulation, training, and GUI
-    - train_logs_backup.txt # Training log file (ignored by Git)
-    - ppo_robotic_arm.zip   # Saved PPO model (ignored by Git)
-    - requirements.txt      # Dependencies
-    - README.md             # Project Documentation
+- data/                 # (Optional) Directory for sample data or logs
+- logs/                 # Training logs (TensorBoard logs, ignored by Git)
+- src/                  # Source code
+  - __init__.py         # Package initialization
+  - robotic_arm_sim.py  # Main script for simulation, training, and GUI
+  - train_logs_backup.txt # Training log file (ignored by Git)
+  - ppo_robotic_arm.zip   # Saved PPO model (ignored by Git)
+  - requirements.txt      # Dependencies
+  - README.md             # Project Documentation
 
-### Dependencies
-- Listed in requirements.txt:
-  - stable-baseline3 (for PPO implementation)
-  - numpy (for numerical operations)
-  - tkinter (for GUI, built-in with Python)
-  - gym (for reinforcement learning environment)
-
-### Features
-- Reinforcement Learning: Trains the robotic arm using the PPO algorithm (Stable Baselines3) to optimize pick-and-place tasks.
-- GUI Interaction: Tkinter-based GUI for running simulations, training, and evaluation.
-- Logging: Detailed logging of training metrics (e.g., ep_rew_mean, ep_len_mean) and simulation states.
+### Results
+- Performance: Achieved a 67% success rate with an average episode length of 62 steps over 4.5M timesteps.
 
 ### Notes
 - Ensure Python 3.8+ and virtual environment activation for dependency management.
