@@ -18,7 +18,7 @@ This project simulates a robotic arm that learns to pick and place objects in a 
   - Detailed state logging and simulation feedback
 
 ### Files
-- `requirements.txt`: Lists dependencies required to run scripts.
+- `requirements.txt`: Lists all Python dependencies required to run the simulation.
 - `src/robotic_arm_sim.py`: Script used to train and evaluate the robot.
 - `train_logs_backup.txt`: Logs used to monitor training progress.
 - `ppo_robotic_arm.zip`: Saved model.
