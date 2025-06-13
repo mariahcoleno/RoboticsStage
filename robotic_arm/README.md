@@ -78,11 +78,11 @@ This project simulates a robotic arm that learns to pick and place objects in a 
       - explain_decision.py      
       - gui.py      
       - robotic_arm_sim.py  # Main script for simulation, training, and GUI
-    - .gitignore
     - README.md
     - __init__.py           # Package installation
     - fetch_pick_and_place.sac.py
     - requirements.txt 
+  - .gitignore
 
 ###  Generated Files (Not in Repository)
 When you run the training, these files will be created locally:
