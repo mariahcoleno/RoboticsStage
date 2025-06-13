@@ -189,3 +189,4 @@ temp/
 # Bullet Physics simulation files
 # ============================================
 *.bullet
+ppo_robotic_arm/
