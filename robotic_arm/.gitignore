@@ -1,0 +1,6 @@
+# Project-specific exclusions for ExplainableRoboticArm
+ppo_robotic_arm.zip
+shap_explanation.png
+
+# Allow screenshots for README.md
+!screenshots/*.png
