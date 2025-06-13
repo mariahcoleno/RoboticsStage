@@ -4,3 +4,157 @@ shap_explanation.png
 
 # Allow screenshots for README.md
 !screenshots/*.png
+
+# ============================================
+# Reinforcement Learning & Model Files
+# ============================================
+# PPO model checkpoints and training artifacts
+ppo_robotic_arm_checkpoint_*
+*checkpoint*
+*.pth
+*.pkl
+*.h5
+*.model
+
+# Training logs and evaluation files
+*.txt
+logs/
+*.log
+tensorboard_logs/
+wandb/
+
+# ============================================
+# Python
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints
+
+# ============================================
+# IDE and Editor files
+# ============================================
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# System files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================
+# Simulation and Robotics specific
+# ============================================
+# Large URDF/mesh files (uncomment if needed)
+# *.urdf
+# *.dae
+# *.stl
+
+# Gazebo
+.gazebo/
+
+# ROS (if applicable)
+devel/
+build/
+msg_gen/
+srv_gen/
+msg/*Action.msg
+msg/*ActionFeedback.msg
+msg/*ActionGoal.msg
+msg/*ActionResult.msg
+msg/*Feedback.msg
+msg/*Goal.msg
+msg/*Result.msg
+msg/_*.py
+build_isolated/
+devel_isolated/
+
+# ============================================
+# Data and temporary files
+# ============================================
+# Large datasets
+data/
+datasets/
+*.csv
+*.json
+# But allow small config JSONs
+!config*.json
+!*_config.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
