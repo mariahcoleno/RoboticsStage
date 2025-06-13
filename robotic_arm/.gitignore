@@ -2,8 +2,22 @@
 ppo_robotic_arm.zip
 shap_explanation.png
 
-# Allow screenshots for README.md
-!screenshots/*.png
+# Allow screenshots for README.md (but not all screenshots)
+screenshots/*.png
+screenshots/*.jpg
+# Keep only essential screenshots
+!screenshots/demo.png
+!screenshots/setup.png
+!screenshots/results.png
+
+# ============================================
+# Backup Files (should not be in version control)
+# ============================================
+*_backup.py
+*_backup*.py
+*backup*.py
+*.bak
+*.backup
 
 # ============================================
 # Reinforcement Learning & Model Files
@@ -159,6 +173,17 @@ temp/
 *.swp
 *.swo
 *.bak
+
+# ============================================
+# Media files (videos, gifs for demos - optional)
+# ============================================
+# Uncomment if you want to exclude large media files
+# *.mp4
+# *.avi
+# *.gif
+# But allow small demo files
+# !demo.gif
+# !demo.mp4
 
 # ============================================
 # Bullet Physics simulation files
