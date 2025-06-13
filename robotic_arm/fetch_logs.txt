@@ -1,2 +1,0 @@
-Failed to create environment with render_mode='human': Environment `FetchPickAndPlace` doesn't exist.
-Falling back to render_mode=None
