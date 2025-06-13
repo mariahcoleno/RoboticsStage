@@ -89,3 +89,7 @@ This project simulates a robotic arm that learns to pick and place objects in a 
 - Ensure Python 3.8+ and virtual environment activation for dependency management.
 - Training for 4.5M timesteps takes ~2.2 hours at 568 FPS (based on recent run).
 - Checkpoint loading may encounter issues; consider starting fresh runs or debugging PPO.load() functionality.
+
+### Development Notes
+- Application developed through iterative prompt engineering with AI tools (Claude/Grok) for rapid prototyping and learning.
+- Reinforcement learning implementation required extensive iteration to achieve stable training and 67% success rate.
